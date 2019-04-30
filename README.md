@@ -7,11 +7,12 @@ FATtest-service - designed for backend(service) project
 To activate this project, please follow the instructions below:
 I. For a frontend project:
 1. Add the dependency below:
-<dependency>
-  <groupId>com.fattest</groupId>
-  <artifactId>FATtest-web</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
-</dependency>
+
+&lt;dependency&gt;<br/>
+&emsp;&lt;groupId&gt;com.fattest&lt;/groupId&gt;<br/>
+&emsp;&lt;artifactId&gt;FATtest-web&lt;/artifactId&gt;<br/>
+&emsp;&lt;version&gt;0.0.1-SNAPSHOT&lt;/version&gt;<br/>
+&lt;/dependency&gt;<br/>
     
 2. Add featuretest=fattag in your application.properties, you may change the fattag to something else
 
@@ -19,11 +20,12 @@ I. For a frontend project:
 
 II. For a backend project:
 1. Add the dependency below:
-<dependency>
-  <groupId>com.fattest</groupId>
-  <artifactId>FATtest-service</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
-</dependency>
+
+&lt;dependency&gt;<br/>
+&emsp;&lt;groupId&gt;com.fattest&lt;/groupId&gt;<br/>
+&emsp;&lt;artifactId&gt;FATtest-service&lt;/artifactId&gt;<br/>
+&emsp;&lt;version&gt;0.0.1-SNAPSHOT&lt;/version&gt;<br/>
+&lt;/dependency&gt;<br/>
 
 2. Add dubbo.provider.filter=passFatTag in your application.properties.
 
